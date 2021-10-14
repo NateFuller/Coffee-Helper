@@ -11,12 +11,23 @@ struct BrewingMethodCell: View {
     var method: BrewingMethod
     
     var body: some View {
-        VStack {
-            Text(method.name)
-            Spacer()
-            Text(method.ratio.stringValue)
-                .foregroundColor(.gray)
+        //        Button(action: {}) {
+        ZStack {
+            Color.cellBackground.clipShape(RoundedRectangle(cornerRadius: 10))
+            VStack {
+                Text(method.name)
+                Text(method.ratio.stringValue)
+                    .foregroundColor(.gray)
+            }
         }
-        .padding()
+        //        }
+    }
+}
+
+struct BrewingMethodCell_Previews: PreviewProvider {
+    static var previews: some View {
+        BaseView {
+            BrewingMethodCell(method: BrewingMethod.FrenchPress).frame(width: 180, height: 200)
+        }
     }
 }

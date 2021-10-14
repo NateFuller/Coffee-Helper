@@ -10,14 +10,15 @@
 		41AE66EF2677AB3C00E73CFD /* Color+CoffeeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66EE2677AB3C00E73CFD /* Color+CoffeeHelper.swift */; };
 		41AE66F12677B0D700E73CFD /* BrewingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66F02677B0D700E73CFD /* BrewingMethod.swift */; };
 		41AE66F32677B10500E73CFD /* CoffeeToWaterRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66F22677B10500E73CFD /* CoffeeToWaterRatio.swift */; };
-		41AE66F52677B63200E73CFD /* BrewingMethodSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66F42677B63200E73CFD /* BrewingMethodSelectionView.swift */; };
+		41AE66F52677B63200E73CFD /* BrewingMethodSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66F42677B63200E73CFD /* BrewingMethodSelection.swift */; };
 		41AE66FB2677B6BB00E73CFD /* BrewingMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE66FA2677B6BB00E73CFD /* BrewingMethodCell.swift */; };
 		41D49D33267406EA00C9CCE5 /* Coffee_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D49D32267406EA00C9CCE5 /* Coffee_HelperApp.swift */; };
-		41D49D35267406EA00C9CCE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D49D34267406EA00C9CCE5 /* ContentView.swift */; };
 		41D49D37267406EB00C9CCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D49D36267406EB00C9CCE5 /* Assets.xcassets */; };
 		41D49D3A267406EB00C9CCE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D49D39267406EB00C9CCE5 /* Preview Assets.xcassets */; };
 		41D49D44267406EC00C9CCE5 /* Coffee_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D49D43267406EC00C9CCE5 /* Coffee_HelperTests.swift */; };
 		41D49D4E267406EC00C9CCE5 /* Coffee_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D49D4D267406EC00C9CCE5 /* Coffee_HelperUITests.swift */; };
+		CB43EF492716F78900685702 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43EF482716F78900685702 /* BaseView.swift */; };
+		CB43EF4C2717134C00685702 /* CoffeeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43EF4B2717134C00685702 /* CoffeeInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,17 +42,18 @@
 		41AE66EE2677AB3C00E73CFD /* Color+CoffeeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CoffeeHelper.swift"; sourceTree = "<group>"; };
 		41AE66F02677B0D700E73CFD /* BrewingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewingMethod.swift; sourceTree = "<group>"; };
 		41AE66F22677B10500E73CFD /* CoffeeToWaterRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeToWaterRatio.swift; sourceTree = "<group>"; };
-		41AE66F42677B63200E73CFD /* BrewingMethodSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewingMethodSelectionView.swift; sourceTree = "<group>"; };
+		41AE66F42677B63200E73CFD /* BrewingMethodSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewingMethodSelection.swift; sourceTree = "<group>"; };
 		41AE66FA2677B6BB00E73CFD /* BrewingMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewingMethodCell.swift; sourceTree = "<group>"; };
 		41D49D2F267406EA00C9CCE5 /* Coffee-Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee-Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D49D32267406EA00C9CCE5 /* Coffee_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_HelperApp.swift; sourceTree = "<group>"; };
-		41D49D34267406EA00C9CCE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41D49D36267406EB00C9CCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D49D39267406EB00C9CCE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41D49D3F267406EC00C9CCE5 /* Coffee-HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee-HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D49D43267406EC00C9CCE5 /* Coffee_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_HelperTests.swift; sourceTree = "<group>"; };
 		41D49D49267406EC00C9CCE5 /* Coffee-HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee-HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D49D4D267406EC00C9CCE5 /* Coffee_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_HelperUITests.swift; sourceTree = "<group>"; };
+		CB43EF482716F78900685702 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		CB43EF4B2717134C00685702 /* CoffeeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +84,9 @@
 		41AE66F62677B65B00E73CFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CB43EF4A271712B000685702 /* Screens */,
 				41AE66FA2677B6BB00E73CFD /* BrewingMethodCell.swift */,
-				41AE66F42677B63200E73CFD /* BrewingMethodSelectionView.swift */,
+				CB43EF482716F78900685702 /* BaseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,7 +142,6 @@
 				41AE66F82677B68600E73CFD /* Extensions */,
 				41AE66F72677B66100E73CFD /* Models */,
 				41AE66F62677B65B00E73CFD /* Views */,
-				41D49D34267406EA00C9CCE5 /* ContentView.swift */,
 				41D49D32267406EA00C9CCE5 /* Coffee_HelperApp.swift */,
 				41D49D36267406EB00C9CCE5 /* Assets.xcassets */,
 				41D49D38267406EB00C9CCE5 /* Preview Content */,
@@ -169,6 +171,15 @@
 				41D49D4D267406EC00C9CCE5 /* Coffee_HelperUITests.swift */,
 			);
 			path = "Coffee-HelperUITests";
+			sourceTree = "<group>";
+		};
+		CB43EF4A271712B000685702 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				41AE66F42677B63200E73CFD /* BrewingMethodSelection.swift */,
+				CB43EF4B2717134C00685702 /* CoffeeInput.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,13 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D49D35267406EA00C9CCE5 /* ContentView.swift in Sources */,
 				41AE66EF2677AB3C00E73CFD /* Color+CoffeeHelper.swift in Sources */,
 				41D49D33267406EA00C9CCE5 /* Coffee_HelperApp.swift in Sources */,
 				41AE66FB2677B6BB00E73CFD /* BrewingMethodCell.swift in Sources */,
 				41AE66F32677B10500E73CFD /* CoffeeToWaterRatio.swift in Sources */,
-				41AE66F52677B63200E73CFD /* BrewingMethodSelectionView.swift in Sources */,
+				41AE66F52677B63200E73CFD /* BrewingMethodSelection.swift in Sources */,
 				41AE66F12677B0D700E73CFD /* BrewingMethod.swift in Sources */,
+				CB43EF492716F78900685702 /* BaseView.swift in Sources */,
+				CB43EF4C2717134C00685702 /* CoffeeInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee-Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -496,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee-Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -11,7 +11,7 @@ import SwiftUI
 struct Coffee_HelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BrewingMethodSelection()
         }
     }
 }
